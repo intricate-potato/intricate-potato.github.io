@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Abdullah. My research mainly focuses on human impact of artifical intelligence (e.g. language models, recomender systems, etc.), usable, privacy and security (UPS). I while in persute of my research endeavor, I found myself turning stones somehwere among the intersection of HCI, Computational Social Science, and ethical considerations of technologies. 
+Hi, I am Abdullah. My research mainly focuses on human impact of artifical intelligence (e.g. language models, recomender systems, etc.), usable, privacy and security (UPS). I while in persute of my research endeavor, I found myself turning stones somehwere among the intersection of HCI, Computational Social Science, and ethical considerations of technologies.
 
-Being in the early stage of my research career, I am currently focused on the technical challenges and at the same time developing motivation foundational and theoratical aspects in a highly multi-desciplinary arena. 
+Being in the early stage of my research career, I am currently focused on the technical challenges and at the same time developing motivation foundational and theoratical aspects in a highly multi-desciplinary arena.
 
 I deeply fascianted by the phenomena of morality, ethics, spirituality and art in its different forms.
 
