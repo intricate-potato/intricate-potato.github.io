@@ -9,11 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>4rth floor, Paramount Building</p>
-    <p>1577 Barrington St.</p>
-    <p>Your Halifax, Nova Scotia</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -32,7 +32,6 @@ Hi, I am Abdullah. My research mainly focuses on human impact of artifical intel
 Being in the early stage of my research career, I am currently focused on the technical challenges and at the same time developing motivation foundational and theoratical aspects in a highly multi-desciplinary arena. 
 
 I deeply fascianted by the phenomena of morality, ethics, spirituality and art in its different forms.
-
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
