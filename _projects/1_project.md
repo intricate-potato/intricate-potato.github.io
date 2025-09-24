@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 1
+title: Covert Biases in Language Models
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/project1-covert_bias-cover.png
 importance: 1
 category: work
 related_publications: true
 ---
+
+Motivated by the works of {% cite Hofmann2024 --file project_refs.bib %}, i am conducting the investigation on how language models spread bias against identity groups.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

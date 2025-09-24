@@ -9,9 +9,9 @@ profile:
   image: abdullah_pf_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>MCS, Faculty of Computer Science</p>
-    <p>Dalhousie University</p>
-    <p>Halifax, Nova Scotia</p>
+    <p>Master of Compter Science (Ongoing)</p>
+    <p>Faculty of Computer Science</p>
+    <p>Dalhousie University, NS, CA</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
