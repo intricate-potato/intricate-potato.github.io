@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Google Scholar</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://scholar.google.ca/citations?user=Bec2Vs0AAAAJ&hl=en'>[Google Scholar]</a> <a href='https://www.linkedin.com/in/chy-md-abdullah'>[LinkedIn]</a>
 
 profile:
   align: right
