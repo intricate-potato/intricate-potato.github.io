@@ -9,8 +9,8 @@ profile:
   image: abdullah_pf_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>4<sup>rth</sup> Floor, Paramount Building</p>
-    <p>1577 Barrington St</p>
+    <p>MCS, Faculty of Computer Science</p>
+    <p>Dalhousie University</p>
     <p>Halifax, Nova Scotia</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -27,14 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Abdullah. My research mainly focuses on human impact of artifical intelligence (e.g. language models, recomender systems, etc.), usable, privacy and security (UPS). I while in persute of my research endeavor, I found myself turning stones somehwere among the intersection of HCI, Computational Social Science, and ethical considerations of technologies.
+Hi, I am Abdullah. My research focuses on the human impacts of artificial intelligence (e.g., language models, recommender systems) and on usability, privacy, and security. In pursuing my multidisciplinary research questions, I find myself exploring the intersection of human-computer interaction, computational social science, and the ethical dimensions of technology. Rather than focusing solely on technology, my research prioritizes understanding human problems. Hence, I draw motivation from foundational and theoretical concepts across domains (e.g., sociolinguistics, psychology. etc.) and adapt cutting edge techniques to the problem at hand.
 
-Being in the early stage of my research career, I am currently focused on the technical challenges and at the same time developing motivation foundational and theoratical aspects in a highly multi-desciplinary arena.
+Beyond my academic work, I am a passionate photographer and documentary enthusiast, particularly drawn to content exploring history, anthropology, sociology, and science. I remain deeply fascinated by how morality, ethics, spirituality, and art manifest across diverse human societies.
+<!-- 
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
-I deeply fascianted by the phenomena of morality, ethics, spirituality and art in its different forms.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
