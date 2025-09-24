@@ -9,7 +9,7 @@ profile:
   image: abdullah_pf_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>4<sup>rth<sup> Floor, Paramount Building</p>
+    <p>4<sup>rth</sup> Floor, Paramount Building</p>
     <p>1577 Barrington St</p>
     <p>Your Halifax, Nova Scotia</p>
 
