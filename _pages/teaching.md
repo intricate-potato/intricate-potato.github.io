@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: teaching
 permalink: /teaching/
 description:
 nav: true
