@@ -9,11 +9,11 @@ profile:
   image: abdullah_pf_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>4rth Floor, Paramount Building</p>
+    <p>4<sup>rth<sup> Floor, Paramount Building</p>
     <p>1577 Barrington St</p>
     <p>Your Halifax, Nova Scotia</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,6 +26,12 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+Hi, I am Abdullah. My research mainly focuses on human impact of artifical intelligence (e.g. language models, recomender systems, etc.), usable, privacy and security (UPS). I while in persute of my research endeavor, I found myself turning stones somehwere among the intersection of HCI, Computational Social Science, and ethical considerations of technologies. 
+
+Being in the early stage of my research career, I am currently focused on the technical challenges and at the same time developing motivation foundational and theoratical aspects in a highly multi-desciplinary arena. 
+
+I deeply fascianted by the phenomena of morality, ethics, spirituality and art in its different forms.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
