@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Google Scholar</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>4<sup>rth</sup> Floor, Paramount Building</p>
     <p>1577 Barrington St</p>
-    <p>Your Halifax, Nova Scotia</p>
+    <p>Halifax, Nova Scotia</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
