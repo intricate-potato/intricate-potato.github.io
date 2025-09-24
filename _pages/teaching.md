@@ -11,14 +11,14 @@ Since my school days, I have been very passionate about the idea of pedagogy, th
 
 #### Dalhousie University
 
-- **Inclusive Computing** _(CSCI 3163)_ - I had the honour to be in the teaching team of [Dr. Raghav Sampangi](https://www.raghavsampangi.com) for the very first offering of this course at Dal. With the classroom sized at 35, I am employed as both Teaching Assistant and Marker for the course (Fall'25)
+- **Inclusive Computing** _(CSCI 3163)_ - I had the honour to be in the teaching team of Dr. Raghav Sampangi for the very first offering of this course at Dal. With the classroom sized at 35, I am employed as both Teaching Assistant and Marker for the course (Fall'25)
 
   - The course mainly focuses on EDIAD of STEM education
   - Responsibilities:
     1. Conducting lab
     2. Grading assignments
 
-- **Human Computer Interaction** _(CSCI 4163/6610)_ - I took the course with [Dr. Jamie Blustein](https://web.cs.dal.ca/~jamie) in my first semester at Dal (Winter'25) and later on got offered to be the Marker of the same course (Fall'25). The registered students are both from undergraduate (n=50) and graduate (n=9) levels.
+- **Human Computer Interaction** _(CSCI 4163/6610)_ - I took the course with Dr. Jamie Blustein in my first semester at Dal (Winter'25) and later on got offered to be the Marker of the same course (Fall'25). The registered students are both from undergraduate (n=50) and graduate (n=9) levels.
   - The focus of the course is to give students foundational HCI knowledge
   - Responsibilities:
     - Grading assignments on designing a system on TBD
