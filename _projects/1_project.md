@@ -8,6 +8,8 @@ category: work
 related_publications: true
 ---
 
+The ubiquitousness of large language models, initially comparable to that of search engines, is rapidly broadening, given their growing application, ranging from conversational information seeking and writing assistance to critical decision-making. However, their generated outputs are known to spread biases for identity groups. This makes the models potentially unsafe to be deployed in consequential fields. Existing works achieve noticeable results both in  evaluating and putting guardrails around the overt biases, if not fully mitigating them. Conversely, very little attention is given to the covert ones, mostly owing to the inapt recognition and detection of the problem itself. This project intends to investigate the existing raciolinguistic and psycholinguistic stereotypes prevalent in human society that are internalised by the LLMs through their learning data and how these biases covertly influence the LLMs' perceptions towards identity groups. Our work will investigate how the implicit cues from the prompt (dialect, language) can steer the racial biases, rather than providing explicit references to racial identities. Our findings will report the extent and nature of the biases these LLMs harbour and how these biases can hinder their effectivity for identity groups.
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
