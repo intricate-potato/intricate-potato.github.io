@@ -6,7 +6,7 @@ subtitle: <a href='https://scholar.google.com/citations?hl=en&user=HISlKZ8AAAAJ'
 
 profile:
   align: right
-  image: abdullah_pf_pic.jpg
+  image: abdullah_pf_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Master of Computer Science (Ongoing)</p>
@@ -24,7 +24,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---

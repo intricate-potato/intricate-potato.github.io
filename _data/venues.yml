@@ -1,11 +1,6 @@
-"AIES":
-  color: "#5f2d91"
-
-"VC":
-  color: "#00369f"
-
-"IEICE":
-  color: "#7a7a7a"
-
-"ICCIT":
-  color: "#009f36"
+{}
+# venue abbreviation badges (matched against the `abbr` field in _bibliography/papers.bib)
+# left empty on purpose: badges use the site's single theme color by default. To override a
+# specific venue's color, add an entry below, e.g.:
+# "AIES":
+#   color: "#5f2d91"

@@ -2,6 +2,7 @@
 layout: page
 title: Narrative-Aware News Recommendation
 description: A narrative-grounded, explainable news recommender built on Greimas' Actantial Model.
+img: assets/img/project_visuals/narrative-aware-news-rec.gif
 importance: 2
 category: research
 ---

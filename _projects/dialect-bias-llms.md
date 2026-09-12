@@ -2,6 +2,7 @@
 layout: page
 title: Covert Dialect Bias in LLMs
 description: Measuring covert dialect prejudice and contextual integrity violations in large language models.
+img: assets/img/project_visuals/dialect-bias.gif
 importance: 1
 category: research
 related_publications: true
