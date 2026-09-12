@@ -35,7 +35,7 @@ My work sits at the intersection of human-computer interaction, computational so
 
 Beyond research, I am an active documentary photographer. I spend much of my creative time exploring history, cultural anthropology, and the diverse ways ethics, morality, and artistic expression manifest across societies.
 
-<!-- 
+<!--
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
