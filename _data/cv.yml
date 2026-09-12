@@ -2,96 +2,147 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Chowdhury Mohammad Abdullah
+    - name: Current Position
+      value: MSc Candidate, Dalhousie University
+    - name: Supervisor
+      value: Dr. Rita Orji, Persuasive Computing Lab
+    - name: Email
+      value: abdullah39@dal.ca
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Computer Science
+      institution: "Dalhousie University, Halifax, NS, Canada"
+      year: "Jan 2025 - Dec 2026 (exp.)"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "CGPA: 4.30/4.30"
+        - "Supervisor: Dr. Rita Orji"
+    - title: B.Sc. in Computer Science & Engineering
+      institution: "Islamic University of Technology, Gazipur, Bangladesh"
+      year: "Jan 2019 - May 2023"
       description:
-        - Description 1.
-        - Description 2.
+        - "CGPA: 3.85/4.00"
+        - First-class with honours distinction
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant & Marker
+      institution: "Dalhousie University, Halifax, Canada"
+      year: "Jan 2025 - Present"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "CSCI 4169 - Usable Security and Privacy (Winter'26); class size 55; Instr: Dr. Sampangi"
+        - "CSCI 3163 - Inclusive Computing (Fall'25); class size 33; Instr: Dr. Sampangi [First offering at Dalhousie]"
+        - "CSCI 4163/6610 - Human-Computer Interaction (Fall'25); class size 59; Instr: Dr. Blustien"
+        - "CSCI 1110 - Introduction to Computer Science (Winter'25); class size 26; Instr: Dr. Tang and Dr. Oyebode"
+    - title: Research Assistant
+      institution: "Persuasive Computing Lab, Dalhousie University, Halifax, Canada"
+      year: "Jan 2025 - Present"
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Conducting research on human-AI interactions and persuasive fitness applications
+        - Supporting user studies and maintaining lab equipment for ongoing research projects
+    - title: Lecturer
+      institution: "Bangladesh Military Academy, Chattogram, Bangladesh"
+      year: "Jun 2023 - Dec 2024"
       description:
+        - "CSE 203, 204 - Data Structures (Theory & Sessionals)"
+        - "CSE 205, 206 - Object Oriented Programming Language (Theory & Sessionals)"
+        - "CSE 213 - Computer Architecture"
+        - "CSE 274 - Numerical Methods (Sessionals)"
+    - title: Lecturer (Adjunct)
+      institution: "International Islamic University Chittagong, Chattogram, Bangladesh"
+      year: "Jun 2023 - Dec 2024"
+      description:
+        - "CSE 2301 - Object Oriented Programming"
+        - "CSE 2427 - Theory of Computation"
+        - "CSE 4743 - Computer Security"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Ongoing Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Covert Dialect Bias in LLMs and Contextual Integrity Violation
+      institution: "Master's Thesis - Supervisor: Dr. Rita Orji, Persuasive Computing Lab, Dalhousie University"
+      description:
+        - Measuring covert dialect prejudice in LLMs across housing-related social judgments
+        - Employing a computational matched-guise methodology from psychology
+        - Characterizing dialect-based attribute inference as a contextual integrity concern
+        - "Phase 1 results accepted at AIES 2026; Phase 2 works on contextual integrity"
+    - title: Narrative-Aware News Recommendation Systems
+      institution: "Collaborator: Dr. Ga Wu (Dalhousie University; ex-Senior ML Engineer, Twitter)"
+      description:
+        - "Designing a content-based recommender that operationalizes Greimas' Actantial Model as role-stratified actant embeddings within a bipartite Graph Attention Network, enabling narrative-grounded explainability over the MIND benchmark"
+        - Investigating user-level impacts on trust, perception, and transparency
+    - title: Sociotechnical Security and Privacy in VANETs
+      institution: "Collaborators: Fairuz Shaiara (U. Manitoba), Sherajul Arifin (IUT Bangladesh), Faisal Haque Bappy, Dr. Tariqul Islam (UMBC), Dr. Raiful Hasan (Kent State)"
+      description:
+        - Collaborating on blockchain-based trust management and privacy-preserving authentication schemes for vehicular ad-hoc networks
 
-- title: Honors and Awards
+- title: Awards & Scholarships
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: FGS Travel Grant
+      institution: Dalhousie University
+      year: "Sep 2026"
+      description:
+        - Awarded to graduate student for research travels
+    - title: Bangladesh Sweden Trust Fund
+      institution: Travel Grant
+      year: "Feb 2026"
+      description:
+        - Awarded to high-achieving Bangladeshi students for overseas graduate-level studies
+    - title: Nova Scotia Graduate Scholarship (Master's)
+      institution: "CAD $20,000"
+      year: "May 2025 - Apr 2027"
+      description:
+        - Awarded for research excellence and innovation in fields prioritized for Nova Scotia's strategic advancement
+    - title: NSERC CREATE Cybersecurity Fellowship
+      institution: "Dalhousie University; CAD $27,000"
+      year: "Jan 2025 - Dec 2026"
+      description:
+        - "Supporting research on security and privacy aspects of emerging technologies (e.g., LLMs and generative AI)"
+    - title: Departmental Research Scholarship
+      institution: "Dalhousie University; CAD ~$16,000"
+      year: "Jan 2025 - Aug 2026"
+      description:
+        - Merit-based institutional funding for tuition and stipends
+    - title: Conference Travel Grant
+      institution: Islamic University of Technology
+      year: "Sep 2026"
+      description:
+        - "Awarded for attending ICCIT'22 and presenting my work"
+    - title: OIC Partial Scholarship
+      institution: "USD ~$18,000"
+      year: "Jan 2019 - May 2023"
+      description:
+        - Merit-based entrance scholarship for undergraduate tuition, accommodation, and stipend
+    - title: National High School Merit Scholarship
+      institution: Ministry of Education, Government of Bangladesh
+      year: "Jul 2017 - Jun 2018"
+      description:
+        - Awarded for academic performance in board exams
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Competitions
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Top 10, Health Data Challenge</u>, Atlantic AI Summit 2025: Advanced to the final round developing AI solutions for improving public health communication strategies."
+    - "<u>Finalist, Blockchain Olympiad 2022</u>: Selected among top 50 teams globally; proposed a Hyperledger Fabric-based pension system for e-governance applications."
+    - "<u>Top 40, National Cyber Drill</u>, BGD e-GOV CIRT 2021: Placed 35th among 396 teams in Bangladesh's national cybersecurity competition."
+    - "<u>Photography Exhibition, Mindsparks 2022</u>: Selected to exhibit documentary photography on marginalized communities (Ahsanullah University of Science & Technology, Dhaka)."
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Trustworthy & Fair AI
+      items:
+        - Covert bias and linguistic profiling in large language models
+        - Contextual integrity in AI-mediated decision-making
+    - title: Human-Computer Interaction
+      items:
+        - Persuasive and behaviour-change technologies
+        - Narrative-grounded and explainable recommender systems
+    - title: Security & Privacy
+      items:
+        - Blockchain-based trust management for vehicular ad-hoc networks
+        - Privacy-preserving authentication schemes

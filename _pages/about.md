@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://scholar.google.ca/citations?user=Bec2Vs0AAAAJ&hl=en'>[Google Scholar]</a> <a href='https://www.linkedin.com/in/chy-md-abdullah'>[LinkedIn]</a>
+subtitle: <a href='https://scholar.google.com/citations?hl=en&user=HISlKZ8AAAAJ'>[Google Scholar]</a> <a href='https://www.linkedin.com/in/chy-md-abdullah'>[LinkedIn]</a>
 
 profile:
   align: right
   image: abdullah_pf_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>MCS, Faculty of Computer Science</p>
-    <p>Dalhousie University</p>
-    <p>Halifax, Nova Scotia</p>
+    <p>Master of Computer Science (Ongoing)</p>
+    <p>Faculty of Computer Science, Dalhousie University</p>
+    <p>Persuasive Computing Lab, 4th Floor</p>
+    <p>Paramount Dalhousie Building</p>
+    <p>1577 Barrington St<br>Halifax, NS B3J 1Z7</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,9 +29,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Abdullah. My research focuses on the human impacts of artificial intelligence (e.g., language models, recommender systems) and on usability, privacy, and security. In pursuing my multidisciplinary research questions, I find myself exploring the intersection of human-computer interaction, computational social science, and the ethical dimensions of technology. Rather than focusing solely on technology, my research prioritizes understanding human problems. Hence, I draw motivation from foundational and theoretical concepts across domains (e.g., sociolinguistics, psychology. etc.) and adapt cutting edge techniques to the problem at hand.
+I am Abdullah, a researcher investigating the human impacts of artificial intelligence, particularly across language models and recommender systems.
 
-Beyond my academic work, I am a passionate photographer and documentary enthusiast, particularly drawn to content exploring history, anthropology, sociology, and science. I remain deeply fascinated by how morality, ethics, spirituality, and art manifest across diverse human societies.
+My work sits at the intersection of human-computer interaction, computational social science, and AI ethics. I approach these domains through an explicitly multidisciplinary lens. As modern AI systems become more fluent and socially embedded, many open challenges in human-AI interaction, safety, and explainability find powerful precedents in the social sciences. My research actively bridges these fields—drawing on sociolinguistic paradigms like matched-guise techniques to audit covert model biases, adapting structural narratology for narrative-aware content recommendation, and leveraging persuasive computing to design cognitive forcing functions that discourage over-reliance on generative agents. Rich empirical foundations already exist across social psychology, anthropology, and sociology; our job as computer scientists is to dig into these archives to inform responsible system design.
+
+Beyond research, I am an active documentary photographer. I spend much of my creative time exploring history, cultural anthropology, and the diverse ways ethics, morality, and artistic expression manifest across societies.
+
 <!-- 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
