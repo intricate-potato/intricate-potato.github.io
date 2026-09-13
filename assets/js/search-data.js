@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Master of Computer Science candidate at Dalhousie University, supervised by Dr. Rita Orji.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-photos",
+          title: "photos",
+          description: "A collection of documentary photography.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/photos/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -60,21 +60,21 @@ ninja.data = [{
           section: "News",},{id: "news-airplane-grateful-to-receive-travel-grants-from-nserc-and-dalhousie-fgs-for-my-aies-paper-presentation-see-you-in-malmö-sweden-this-october-sweden-sparkles",
           title: ':airplane: Grateful to receive travel grants from NSERC and Dalhousie FGS for my...',
           description: "",
-          section: "News",},{id: "projects-persuasive-strategies-for-mindful-use-of-ai",
-          title: 'Persuasive Strategies for Mindful use of AI',
-          description: "A persuasive AI companion that promotes mindful, critical engagement with generative AI during graduate research.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/active-ai-researcher/";
-            },},{id: "projects-covert-dialect-bias-in-llms",
+          section: "News",},{id: "projects-covert-dialect-bias-in-llms",
           title: 'Covert Dialect Bias in LLMs',
           description: "Measuring covert dialect prejudice and contextual integrity violations in large language models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dialect-bias-llms/";
-            },},{id: "projects-narrative-aware-news-recommendation",
-          title: 'Narrative-Aware News Recommendation',
+            },},{id: "projects-narrlytics-narrative-aware-news-recommendation",
+          title: 'Narrlytics: Narrative-Aware News Recommendation',
           description: "A narrative-grounded, explainable news recommender built on Greimas&#39; Actantial Model.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/narrative-news-recsys/";
+            },},{id: "projects-persuasive-strategies-for-mindful-use-of-ai",
+          title: 'Persuasive Strategies for Mindful use of AI',
+          description: "A persuasive AI companion that promotes mindful, critical engagement with generative AI during graduate research.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/persuasive-strategies-mindful-ai/";
             },},{id: "projects-security-and-privacy-in-vanets",
           title: 'Security and Privacy in VANETs',
           description: "Blockchain-based trust management and privacy-preserving authentication for vehicular ad-hoc networks.",
