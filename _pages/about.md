@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://scholar.google.com/citations?hl=en&user=HISlKZ8AAAAJ'>[Google Scholar]</a> <a href='https://www.linkedin.com/in/chy-md-abdullah'>[LinkedIn]</a>
+subtitle: <a href='https://scholar.google.com/citations?hl=en&user=HISlKZ8AAAAJ'>[Google Scholar]</a> <a href='https://www.linkedin.com/in/chy-md-abdullah'>[LinkedIn]</a> <a href='https://orcid.org/0009-0003-1114-6531'>[ORCID]</a> <a href='/assets/pdf/cv.pdf'>[CV]</a>
 
 profile:
   align: right
@@ -16,7 +16,7 @@ profile:
     <p>1577 Barrington St<br>Halifax, NS B3J 1Z7</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items

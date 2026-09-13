@@ -1,12 +1,26 @@
 ---
 layout: page
-title: Narrative-Aware News Recommendation
+title: "Narrlytics: Narrative-Aware News Recommendation"
 description: A narrative-grounded, explainable news recommender built on Greimas' Actantial Model.
 img: assets/img/project_visuals/narrative-aware-news-rec.gif
+img_width: 50%
 importance: 2
 category: research
 ---
 
-In collaboration with Dr. Ga Wu (Dalhousie University; formerly Senior ML Engineer at Twitter), this project designs a content-based news recommender that operationalizes Greimas' Actantial Model — a structuralist framework for narrative roles — as role-stratified actant embeddings within a bipartite Graph Attention Network.
+In collaboration with Dr. Ga Wu (Dalhousie University; formerly Senior ML Engineer at Twitter), **Narrlytics** asks a question that keyword matching, topic tags, and engagement signals leave unanswered: when a person returns to a news story, what are they actually returning to? Most recommenders answer with the entities an article mentions. Narrlytics answers with the part each entity plays in the event.
 
-The goal is to move beyond topic- or engagement-based recommendation toward narrative-grounded explainability, evaluated on the MIND benchmark. Alongside the modeling work, we are investigating how narrative-aware explanations affect users' trust, perception, and sense of transparency when interacting with a recommender system.
+The project draws on **Greimas' Actantial Model**, a structuralist framework developed to analyze folklore and myth, which decomposes any story into six functional roles:
+
+- **Subject:** the central actor pursuing an objective.
+- **Object:** the goal, policy, or outcome being pursued.
+- **Helper:** the allies, supporting policies, or favorable conditions aiding the subject.
+- **Opponent:** the rivals, opposing factions, or obstacles hindering progress.
+- **Sender:** the authority or catalyst that sets the events in motion.
+- **Receiver:** the group that ultimately benefits or bears the consequences.
+
+The same entity can occupy different roles in different stories, and that difference is invisible to representations that record only which names appear. Narrlytics treats the role as part of the representation, so that a reader who keeps encountering a familiar adversary, or an objective that never resolves, is matched on that pattern rather than on name overlap alone.
+
+Because the roles are named and few, the same structure that drives the ranking also supplies the rationale. A recommendation can be attributed to the narrative position an entity holds in a reader's history, which is a claim a reader can check, agree with, or reject. The work is evaluated on the **Microsoft News Dataset (MIND)** benchmark.
+
+A paper describing the method and results is currently under peer review, so the architecture and evaluation are not documented in full here. I am happy to discuss the work in detail by email.

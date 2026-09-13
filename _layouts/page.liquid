@@ -15,7 +15,7 @@ layout: default
   </header>
 
   {% if page.img %}
-    <div class="cover-image mb-3">
+    <div class="cover-image mb-3" style="max-width: {{ page.img_width | default: '100%' }}; margin-left: auto; margin-right: auto;">
       {% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" alt=page.title %}
     </div>
   {% endif %}
