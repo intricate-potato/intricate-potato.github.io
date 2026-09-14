@@ -10,7 +10,7 @@ category: research
 
 In collaboration with Dr. Ga Wu (Dalhousie University; formerly Senior ML Engineer at Twitter), **Narrlytics** asks a question that keyword matching, topic tags, and engagement signals leave unanswered: when a person returns to a news story, what are they actually returning to? Most recommenders answer with the entities an article mentions. Narrlytics answers with the part each entity plays in the event.
 
-The project draws on **Greimas' Actantial Model**, a structuralist framework developed to analyze folklore and myth, which decomposes any story into six functional roles:
+The project draws on [**Greimas' Actantial Model**](https://en.wikipedia.org/wiki/Actantial_model), a structuralist framework developed by [A. J. Greimas](https://en.wikipedia.org/wiki/Algirdas_Julien_Greimas) to analyze folklore and myth, which decomposes any story into six functional roles:
 
 - **Subject:** the central actor pursuing an objective.
 - **Object:** the goal, policy, or outcome being pursued.
@@ -21,6 +21,8 @@ The project draws on **Greimas' Actantial Model**, a structuralist framework dev
 
 The same entity can occupy different roles in different stories, and that difference is invisible to representations that record only which names appear. Narrlytics treats the role as part of the representation, so that a reader who keeps encountering a familiar adversary, or an objective that never resolves, is matched on that pattern rather than on name overlap alone.
 
-Because the roles are named and few, the same structure that drives the ranking also supplies the rationale. A recommendation can be attributed to the narrative position an entity holds in a reader's history, which is a claim a reader can check, agree with, or reject. The work is evaluated on the **Microsoft News Dataset (MIND)** benchmark.
+Because the roles are named and few, the same structure that drives the ranking also supplies the rationale. A recommendation can be attributed to the narrative position an entity holds in a reader's history, which is a claim a reader can check, agree with, or reject. The work is evaluated on the [**Microsoft News Dataset (MIND)**](https://msnews.github.io/) benchmark.
 
 A paper describing the method and results is currently under peer review, so the architecture and evaluation are not documented in full here. I am happy to discuss the work in detail by email.
+
+Related work on this site: [Covert Dialect Bias in LLMs]({{ '/projects/dialect-bias-llms/' | relative_url }}), which applies a similar social-science-to-computation translation to model auditing. A full list of my work is on the [publications]({{ '/publications/' | relative_url }}) page.

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Ongoing research projects.
+description: Ongoing research on covert dialect bias in large language models, narrative-aware news recommendation, persuasive design for mindful AI use, and VANET security.
 nav: true
 nav_order: 3
 horizontal: true

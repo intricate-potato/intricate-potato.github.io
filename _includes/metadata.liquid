@@ -14,7 +14,8 @@
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 {% endif %}
 
-{% capture author_name %}{{ site.last_name }}{% endcapture %}
+{% capture author_name %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% endcapture %}
+{% assign author_name = author_name | replace: '  ', ' ' | strip %}
 
 <!-- Standard metadata -->
 <meta charset="utf-8">
@@ -35,7 +36,7 @@
       {{ page.title }} | {{ title }}
     {% endif %}
   {% else %}
-    {{ title }}
+    {{ title }}{% if site.tagline %} | {{ site.tagline }}{% endif %}
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
@@ -55,7 +56,7 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title and page.title != 'blank' and page.url != '/' %}{{ page.title }} | {{ title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
@@ -223,22 +224,95 @@
     {% endcase %}
   {% endfor %}
 
+  {% assign home_url = site.url | append: site.baseurl | append: '/' %}
+  {% assign person_id = home_url | append: '#person' %}
+  {% assign website_id = home_url | append: '#website' %}
+  {% assign page_abs_url = page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url %}
+  {% assign site_desc = site.description | strip_newlines | strip %}
+  {% capture page_desc %}{% if page.description %}{{ page.description }}{% else %}{{ site_desc }}{% endif %}{% endcapture %}
+  {% assign page_desc = page_desc | strip_newlines | strip %}
+  {% capture page_headline %}{% if page.title and page.title != 'blank' and page.url != '/' %}{{ page.title }}{% else %}{{ author_name }}{% endif %}{% endcapture %}
+  {% assign page_headline = page_headline | strip %}
+  {% assign page_image = page.og_image | default: site.og_image %}
+
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+          "@type": "Person",
+          "@id": {{ person_id | jsonify }},
+          "name": {{ author_name | jsonify }},
+          "givenName": {{ site.first_name | jsonify }},
+          "familyName": {{ site.last_name | jsonify }},
+          "url": {{ home_url | jsonify }},
+          "description": {{ site_desc | jsonify }}
+          {%- if page_image %},
+          "image": {{ page_image | jsonify }}
+          {%- endif %}
+          {%- if site.seo.job_title %},
+          "jobTitle": {{ site.seo.job_title | jsonify }}
+          {%- endif %}
+          {%- if site.seo.affiliation_name %},
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.seo.affiliation_name | jsonify }}
+            {%- if site.seo.affiliation_url %},
+            "url": {{ site.seo.affiliation_url | jsonify }}
+            {%- endif %}
+            {%- if site.seo.department_name %},
+            "department": {
+              "@type": "Organization",
+              "name": {{ site.seo.department_name | jsonify }}
+              {%- if site.seo.department_url %},
+              "url": {{ site.seo.department_url | jsonify }}
+              {%- endif %}
+            }
+            {%- endif %}
+          }
+          {%- endif %}
+          {%- if site.seo.alumni_of_name %},
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.seo.alumni_of_name | jsonify }}
+          }
+          {%- endif %}
+          {%- if site.seo.knows_about %},
+          "knowsAbout": {{ site.seo.knows_about | jsonify }}
+          {%- endif %}
+          {%- if sameaslinks != blank %},
+          "sameAs": {{ sameaslinks | jsonify }}
+          {%- endif %}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        {
+          "@type": "WebSite",
+          "@id": {{ website_id | jsonify }},
+          "url": {{ home_url | jsonify }},
+          "name": {{ author_name | jsonify }},
+          "description": {{ site_desc | jsonify }},
+          "inLanguage": {{ site.lang | jsonify }},
+          "publisher": { "@id": {{ person_id | jsonify }} },
+          "author": { "@id": {{ person_id | jsonify }} }
+        },
+        {
+          "@type": "{% if is_blog_post %}BlogPosting{% elsif page.url == '/' %}ProfilePage{% else %}WebPage{% endif %}",
+          "@id": {{ page_abs_url | append: '#page' | jsonify }},
+          "url": {{ page_abs_url | jsonify }},
+          "name": {{ page_headline | jsonify }},
+          "headline": {{ page_headline | jsonify }},
+          "description": {{ page_desc | jsonify }},
+          "inLanguage": {{ site.lang | jsonify }},
+          "isPartOf": { "@id": {{ website_id | jsonify }} },
+          "about": { "@id": {{ person_id | jsonify }} },
+          "author": { "@id": {{ person_id | jsonify }} }
+          {%- if is_blog_post and page.date %},
+          "datePublished": {{ page.date | date_to_xmlschema | jsonify }}
+          {%- endif %}
+          {%- if page_image %},
+          "primaryImageOfPage": {{ page_image | jsonify }}
+          {%- endif %}
+        }
+      ]
     }
   </script>
 {% endif %}

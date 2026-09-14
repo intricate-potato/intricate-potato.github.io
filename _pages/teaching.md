@@ -2,14 +2,14 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description:
+description: Teaching assistantships and lecturing in HCI, usable security, and inclusive computing at Dalhousie University and previously in Bangladesh.
 nav: true
 nav_order: 6
 ---
 
 Since my school days, I have been very passionate about the idea of pedagogy, though the formal terminology came to me way later until I entered the profession. My teaching experience for tertiary education goes as follows.
 
-#### Dalhousie University
+#### [Dalhousie University](https://www.dal.ca/faculty/computerscience.html)
 
 - **Usable Security and Privacy** _(CSCI 4169)_ - Teaching Assistant and Marker for Dr. Raghav Sampangi's course, with a classroom of 55 students (Winter'26).
 
@@ -25,9 +25,9 @@ Since my school days, I have been very passionate about the idea of pedagogy, th
     1. Conducting lab
     2. Grading assignments
 
-- **Human Computer Interaction** _(CSCI 4163/6610)_ - I took the course with Dr. Jamie Blustien in my first semester at Dal (Winter'25) and later on got offered to be the Marker of the same course, with a class size of 59 (Fall'25).
+- **[Human Computer Interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction)** _(CSCI 4163/6610)_ - I took the course with Dr. Jamie Blustien in my first semester at Dal (Winter'25) and later on got offered to be the Marker of the same course, with a class size of 59 (Fall'25).
 
-  - The focus of the course is to give students foundational HCI knowledge
+  - The focus of the course is to give students foundational HCI knowledge, the same field my [research]({{ '/projects/' | relative_url }}) sits in
   - Responsibilities:
     - Grading assignments on designing a system on TBD
 

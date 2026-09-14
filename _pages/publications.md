@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Full list of publications, in reversed chronological order.
+description: Peer-reviewed publications by Chowdhury Mohammad Abdullah on AI ethics, dialect bias in language models, HCI, and blockchain security, in reverse chronological order.
 nav: true
 nav_order: 2
 ---

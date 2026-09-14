@@ -2,7 +2,7 @@
 layout: page
 title: photos
 permalink: /photos/
-description: A collection of documentary photography.
+description: Documentary photography by Chowdhury Mohammad Abdullah, with an eye for history, anthropology, and everyday life.
 nav: true
 nav_order: 7
 ---

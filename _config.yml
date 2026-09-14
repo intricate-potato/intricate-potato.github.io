@@ -3,17 +3,19 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+tagline: HCI & AI Ethics Researcher, Dalhousie University # appended to the homepage <title> only
 first_name: Chowdhury
 middle_name: Mohammad
 last_name: Abdullah
 contact_note: >
   You can contact me at my email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Chowdhury Mohammad Abdullah, MSc researcher at Dalhousie University studying the human
+  impacts of AI: dialect bias in language models, HCI, and persuasive design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Chowdhury Mohammad Abdullah, human-computer interaction, HCI, large language models, algorithmic bias, dialect bias, AI ethics, fairness in AI, persuasive technology, recommender systems, computational social science, Dalhousie University, Persuasive Computing Lab # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -62,9 +64,28 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://intricate-potato.github.io/assets/img/abdullah_pf_pic.jpeg # The site-wide (default for all links) Open Graph preview image
+
+# Structured data used to build the Schema.org "Person" entity in _includes/metadata.liquid.
+# This is what lets Google tie this site to your Google Scholar / ORCID / LinkedIn profiles
+# as one person. The profile links themselves come from _data/socials.yml ("sameAs").
+seo:
+  job_title: Graduate Researcher
+  affiliation_name: Dalhousie University
+  affiliation_url: https://www.dal.ca/
+  department_name: Faculty of Computer Science
+  department_url: https://www.dal.ca/faculty/computerscience.html
+  alumni_of_name: # TODO: your undergraduate institution, e.g. Islamic University of Technology (left blank so nothing unverified is published)
+  knows_about:
+    - Human-computer interaction
+    - Artificial intelligence ethics
+    - Large language models
+    - Algorithmic bias
+    - Recommender systems
+    - Persuasive technology
+    - Computational social science
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -78,15 +99,18 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+# TODO: paste the token from https://search.google.com/search-console (HTML tag method),
+# then set enable_google_verification: true further down in this file.
 google_site_verification: # your google-site-verification ID (Google Search Console)
+# TODO: paste the token from https://www.bing.com/webmasters, then set enable_bing_verification: true.
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: notes # blog_name will be displayed in your blog page
+blog_description: occasional writing on AI, HCI, and the social sciences
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -115,19 +139,15 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  # - name: medium.com
+  #   rss_url: https://medium.com/@your-username/feed
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -144,7 +164,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
@@ -187,6 +207,11 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # al-folio demo pages -- delete these exclude lines to bring a page back
+  - _pages/profiles.md
+  - _pages/repositories.md
+  - _pages/books.md
+  - _books/
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -252,8 +277,8 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  # books:
+  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -336,7 +361,7 @@ enable_publication_thumbnails: true
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
+  rel: external noopener
   target: _blank
   exclude:
 
