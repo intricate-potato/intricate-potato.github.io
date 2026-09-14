@@ -11,38 +11,33 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Full list of publications, in reversed chronological order.",
+          description: "Peer-reviewed publications by Chowdhury Mohammad Abdullah on AI ethics, dialect bias in language models, HCI, and blockchain security, in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Ongoing research projects.",
+          description: "Ongoing research on covert dialect bias in large language models, narrative-aware news recommendation, persuasive design for mindful AI use, and VANET security.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "",
+          description: "Teaching assistantships and lecturing in HCI, usable security, and inclusive computing at Dalhousie University and previously in Bangladesh.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-photos",
           title: "photos",
-          description: "A collection of documentary photography.",
+          description: "Documentary photography by Chowdhury Mohammad Abdullah, with an eye for history, anthropology, and everyday life.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/photos/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-mortar-board-started-my-master-of-computer-science-at-dalhousie-university-supervised-by-dr-rita-orji-at-the-persuasive-computing-lab-will-be-an-nserc-create-cybersecurity-trainee",
+        },{id: "news-mortar-board-started-my-master-of-computer-science-at-dalhousie-university-supervised-by-dr-rita-orji-at-the-persuasive-computing-lab-will-be-an-nserc-create-cybersecurity-trainee",
           title: ':mortar_board: Started my Master of Computer Science at Dalhousie University, supervised by Dr....',
           description: "",
           section: "News",},{id: "news-trophy-awarded-the-nova-scotia-graduate-scholarship-master-s-cad-20-000-for-research-excellence",
