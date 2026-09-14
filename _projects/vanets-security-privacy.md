@@ -11,6 +11,6 @@ This ongoing collaboration investigates the sociotechnical security and privacy 
 
 Our survey of the field, covering the open challenges and research frontiers in this space, was published in _Vehicular Communications_ ([doi:10.1016/j.vehcom.2026.101015](https://doi.org/10.1016/j.vehcom.2026.101015)) {% cite abdullah2026blockchain %}.
 
-Collaborators: Fairuz Shaiara ([University of Manitoba](https://umanitoba.ca/)), Sherajul Arifin ([Islamic University of Technology](https://www.iutoic-dhaka.edu/), Bangladesh), Faisal Haque Bappy, Dr. Tariqul Islam ([UMBC](https://www.umbc.edu/)), and Dr. Raiful Hasan ([Kent State University](https://www.kent.edu/cs)).
+Collaborators: Fairuz Shaiara ([University of Manitoba](https://umanitoba.ca/)), Sherajul Arifin ([Islamic University of Technology](https://www.iutoic-dhaka.edu/), Bangladesh), [Faisal Haque Bappy](https://faisalhaque.com) ([UMBC](https://www.umbc.edu/)), [Dr. Tariqul Islam](https://paveltariq.com) ([UMBC](https://www.umbc.edu/)), and [Dr. Raiful Hasan](https://raifulhasan.com) ([Kent State University](https://www.kent.edu/cs)).
 
 A full list of my work, including earlier blockchain papers, is on the [publications]({{ '/publications/' | relative_url }}) page.

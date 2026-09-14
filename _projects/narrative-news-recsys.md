@@ -8,7 +8,7 @@ importance: 2
 category: research
 ---
 
-In collaboration with Dr. Ga Wu (Dalhousie University; formerly Senior ML Engineer at Twitter), **Narrlytics** asks a question that keyword matching, topic tags, and engagement signals leave unanswered: when a person returns to a news story, what are they actually returning to? Most recommenders answer with the entities an article mentions. Narrlytics answers with the part each entity plays in the event.
+In collaboration with [Dr. Ga Wu](https://web.cs.dal.ca/~gaw/) (Dalhousie University; formerly Senior ML Engineer at Twitter) and [Masud Imran](https://masudimran.dev) (Dalhousie University), **Narrlytics** asks a question that keyword matching, topic tags, and engagement signals leave unanswered: when a person returns to a news story, what are they actually returning to? Most recommenders answer with the entities an article mentions. Narrlytics answers with the part each entity plays in the event.
 
 The project draws on [**Greimas' Actantial Model**](https://en.wikipedia.org/wiki/Actantial_model), a structuralist framework developed by [A. J. Greimas](https://en.wikipedia.org/wiki/Algirdas_Julien_Greimas) to analyze folklore and myth, which decomposes any story into six functional roles:
 
