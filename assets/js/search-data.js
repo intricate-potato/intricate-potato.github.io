@@ -55,7 +55,12 @@ ninja.data = [{
           section: "News",},{id: "news-airplane-grateful-to-receive-travel-grants-from-nserc-and-dalhousie-fgs-for-my-aies-paper-presentation-see-you-in-malmö-sweden-this-october-sweden-sparkles",
           title: ':airplane: Grateful to receive travel grants from NSERC and Dalhousie FGS for my...',
           description: "",
-          section: "News",},{id: "projects-covert-dialect-bias-in-llms",
+          section: "News",},{id: "projects-ai-readiness-and-the-demographic-dividend-in-bangladeshi-higher-education",
+          title: 'AI Readiness and the Demographic Dividend in Bangladeshi Higher Education',
+          description: "An exploratory study examining the AI readiness gap in Bangladeshi academia, bridging pedagogical and institutional leadership perspectives.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ai-readiness-bangladesh/";
+            },},{id: "projects-covert-dialect-bias-in-llms",
           title: 'Covert Dialect Bias in LLMs',
           description: "Measuring covert dialect prejudice and contextual integrity violations in large language models.",
           section: "Projects",handler: () => {
