@@ -3,7 +3,7 @@ layout: page
 title: AI Readiness and the Demographic Dividend in Bangladeshi Higher Education
 description: An exploratory study examining the AI readiness gap in Bangladeshi academia, bridging pedagogical and institutional leadership perspectives.
 img: assets/img/project_visuals/ai-readyness.jpg
-importance: 5
+importance: 4
 category: research
 ---
 

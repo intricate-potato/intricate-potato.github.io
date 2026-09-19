@@ -2,7 +2,8 @@
 layout: page
 title: Security and Privacy in VANETs
 description: Blockchain-based trust management and privacy-preserving authentication for vehicular ad-hoc networks.
-importance: 4
+img: assets/img/project_visuals/vanet.jpg
+importance: 5
 category: research
 related_publications: true
 ---
