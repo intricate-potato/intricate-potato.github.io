@@ -13,4 +13,4 @@ Our survey of the field, covering the open challenges and research frontiers in 
 
 Collaborators: Fairuz Shaiara ([University of Manitoba](https://umanitoba.ca/)), Sherajul Arifin ([Islamic University of Technology](https://www.iutoic-dhaka.edu/), Bangladesh), [Faisal Haque Bappy](https://faisalhaque.com) ([UMBC](https://www.umbc.edu/)), [Dr. Tariqul Islam](https://paveltariq.com) ([UMBC](https://www.umbc.edu/)), and [Dr. Raiful Hasan](https://raifulhasan.com) ([Kent State University](https://www.kent.edu/cs)).
 
-A full list of my work, including earlier blockchain papers, is on the [publications]({{ '/publications/' | relative_url }}) page.
+Fin publication here on [publications]({{ '/publications/' | relative_url }})!

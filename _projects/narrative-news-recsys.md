@@ -23,6 +23,4 @@ The same entity can occupy different roles in different stories, and that differ
 
 Because the roles are named and few, the same structure that drives the ranking also supplies the rationale. A recommendation can be attributed to the narrative position an entity holds in a reader's history, which is a claim a reader can check, agree with, or reject. The work is evaluated on the [**Microsoft News Dataset (MIND)**](https://msnews.github.io/) benchmark.
 
-A paper describing the method and results is currently under peer review, so the architecture and evaluation are not documented in full here. I am happy to discuss the work in detail by email.
-
-Related work on this site: [Covert Dialect Bias in LLMs]({{ '/projects/dialect-bias-llms/' | relative_url }}), which applies a similar social-science-to-computation translation to model auditing. A full list of my work is on the [publications]({{ '/publications/' | relative_url }}) page.
+A paper describing the method and results is currently under preparation, so the architecture and evaluation are not documented in full here. I am happy to discuss the work in detail by email.

@@ -28,5 +28,3 @@ Hi-Fi v1 was subsequently evaluated in a within-subjects study using TTM, SCT, t
 Our findings suggest that carefully designed persuasive interventions can promote more intentional AI use among graduate students while maintaining usability and user autonomy. A manuscript describing this work is in preparation.
 
 Publication coming soon!
-
-Related work on this site: [Covert Dialect Bias in LLMs]({{ '/projects/dialect-bias-llms/' | relative_url }}) and [Narrlytics]({{ '/projects/narrative-news-recsys/' | relative_url }}). A full list of my work is on the [publications]({{ '/publications/' | relative_url }}) page.
