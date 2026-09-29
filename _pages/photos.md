@@ -2,7 +2,7 @@
 layout: page
 title: photos
 permalink: /photos/
-description: Documentary photography by Chowdhury Mohammad Abdullah, with an eye for history, anthropology, and everyday life.
+description: For me, photography is less a record than a way of looking. I come back to these photographs to remember the places, the people, the feel and smell of the air — a selected set I return to, to replenish myself.
 nav: true
 nav_order: 7
 ---
