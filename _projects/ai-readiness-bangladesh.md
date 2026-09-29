@@ -7,7 +7,7 @@ importance: 4
 category: research
 ---
 
-> Note: This project holds sentimental value to me because all three siblings (my elder sister who is an Asst. Prof. of Management, me, and my younger brother who is a graduate student in International Relations, studying comparative Energy and resource bottlenecks of USA-China) are the collaborators, and out of the common values of serving our home country, we undertook this endeavour. Additionally, the three of us bring unique expertise to this project that will make the project one of a kind. Super excited for this work!
+> Note: This project holds sentimental value to me because all three siblings (my elder sister who is an Asst. Prof. of Management, me, and my younger brother who is a graduate student in International Relations, studying comparative energy and resource bottlenecks of USA-China AI race) are the collaborators, and out of the common values of serving our home country, we undertook this endeavour. Additionally, the three of us bring unique expertise to this project that will make the project one of a kind. Super excited for this work!
 
 Bangladesh stands at a critical juncture of its [demographic dividend](https://en.wikipedia.org/wiki/Demographic_dividend), yet its tertiary education system faces an intensifying graduate employability crisis—particularly across business and social science disciplines. This interdisciplinary project investigates the **"AI readiness gap"** in Bangladeshi academia from both pedagogical and institutional leadership perspectives.
 
