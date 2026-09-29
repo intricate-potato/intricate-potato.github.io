@@ -8,14 +8,9 @@ nav_order: 7
 ---
 
 <div class="row row-cols-1 row-cols-sm-2">
+  <!-- landscape -->
   <div class="col mb-4">
     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CMkOqd4jef-/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
-  </div>
-  <div class="col mb-4">
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CJbUcENBLGz/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
-  </div>
-  <div class="col mb-4">
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CDErF3xh4sx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
   </div>
   <div class="col mb-4">
     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CLo53N1juBO/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
@@ -25,6 +20,13 @@ nav_order: 7
   </div>
   <div class="col mb-4">
     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLlw7vlI-OT/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
+  </div>
+  <!-- square / portrait -->
+  <div class="col mb-4">
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CDErF3xh4sx/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
+  </div>
+  <div class="col mb-4">
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CJbUcENBLGz/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote>
   </div>
 </div>
 <script async src="//www.instagram.com/embed.js"></script>
