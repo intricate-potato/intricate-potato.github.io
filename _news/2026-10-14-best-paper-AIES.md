@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:trophy: I got the best paper award and most importantly
+:trophy: I got the best paper award at AIES'26 for my paper on dialect bias
