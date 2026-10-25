@@ -1,0 +1,27 @@
+#!/bin/sh
+# Rebuilds assets/pdf/cv.pdf from assets/pdf/cv.tex whenever cv.tex is staged,
+# and stages the resulting PDF so it's always in sync with the source.
+
+CV_DIR="assets/pdf"
+CV_TEX="$CV_DIR/cv.tex"
+CV_PDF="$CV_DIR/cv.pdf"
+
+# GUI git clients (e.g. GitHub Desktop) don't source the shell profile that
+# normally puts a TeX distribution on PATH, so add common install locations.
+export PATH="/Library/TeX/texbin:/usr/local/texlive/2024/bin/universal-darwin:/usr/texbin:$PATH"
+
+if git diff --cached --name-only | grep -qx "$CV_TEX"; then
+    if ! command -v latexmk >/dev/null 2>&1; then
+        echo "error: latexmk not found, but $CV_TEX changed. Install a TeX distribution or compile manually." >&2
+        exit 1
+    fi
+
+    echo "Rebuilding $CV_PDF from $CV_TEX..."
+    if ! latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir="$CV_DIR" "$CV_TEX" >/tmp/cv-build.log 2>&1; then
+        echo "error: cv.tex failed to compile. See /tmp/cv-build.log" >&2
+        exit 1
+    fi
+    latexmk -c -outdir="$CV_DIR" "$CV_TEX" >/dev/null 2>&1
+
+    git add "$CV_PDF"
+fi

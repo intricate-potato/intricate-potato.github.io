@@ -11,3 +11,8 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# LaTeX build artifacts (keep the compiled cv.pdf)
+assets/pdf/cv.*
+!assets/pdf/cv.tex
+!assets/pdf/cv.pdf
