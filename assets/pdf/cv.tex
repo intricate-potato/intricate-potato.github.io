@@ -1,0 +1,459 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+% For publications %
+\usepackage[backend=biber, style=ieee, sorting=none]{biblatex}
+\addbibresource{publications.bib}
+
+% Simple and robust bolding logic
+\renewcommand{\mkbibnamefamily}[1]{%
+  \ifboolexpr{ test {\ifcurrentname{author}} and (test {\ifsetequal{namepartfamily}{Abdullah}} or test {\ifsetequal{namepartfamily}{ABDULLAH}}) }
+  {\textbf{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamegiven}[1]{%
+  \ifboolexpr{ test {\ifcurrentname{author}} and (test {\ifsetequal{namepartfamily}{Abdullah}} or test {\ifsetequal{namepartfamily}{ABDULLAH}}) }
+  {\textbf{#1}}{#1}%
+}
+%-------------------------------------------
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{flushleft}
+    \textbf{\Huge \scshape Chowdhury Mohammad Abdullah} 
+    \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:+19024520717}{+1 902 452 0717}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:abdullah39@dal.ca}{abdullah39@dal.ca}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://intricate-potato.github.io/}{Personal Website}
+    \\ \vspace{2pt}
+    \faGraduationCap \hspace{.5pt} \href{https://scholar.google.com/citations?user=Bec2Vs0AAAAJ&hl=en}{Google Scholar}
+    $|$
+    \faLink \hspace{.5pt} \href{https://orcid.org/0009-0003-1114-6531}{ORCID}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/chy-md-abdullah/}{chy-md-abdullah}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/intricate-potato}{intricate-potato}
+    % $|$ \\ \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/TUKUrDq4kL9rK2ee9}{12 Piers Ave, Halifax, NS, CA}
+\end{flushleft}
+
+\vspace{3pt}
+
+%----------- EDUCATION -----------
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+      
+    \resumeEducationHeading
+      {Dalhousie University
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{NS, Canada}
+      {\normalfont{Master of Computer Science; CGPA: 4.30/4.30 (Coursework completed)}}{Jan 2025 \textbf{--} Dec 2026 (exp.) }
+      {Thesis Supervisor: Dr. Rita Orji}{}
+          
+    \resumeEducationHeading
+      {Islamic University of Technology
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Gazipur, Bangladesh}
+      {\normalfont{B. Sc. in Computer Science \& Engineering;   CGPA: 3.85/4.00}}{Jan 2019 \textbf{--} May 2023}
+      {First-class with honours distinction}{}
+  \resumeSubHeadingListEnd
+
+%----------- PUBLICATIONS -----------
+\section{Publications}
+  \begin{enumerate}[leftmargin=0.25in, label={[\arabic*]}]
+    \small{
+    \item \textbf{From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale} \\
+      \textit{Proceedings of the 9th AAAI/ACM Conference on AI, Ethics, and Society (AIES), 2026} \\
+      \textbf{Abdullah, C.M.} and Orji, R. \textbf{[Best Paper Award, Travel Grant]}
+      \vspace{2pt}
+
+      \item \textbf{Blockchain Integration in VANETs: Challenges and Research Frontiers in Security and Trust} \\
+      \textit{Vehicular Communications, p.101015, 2026} \\
+      \textbf{Abdullah, C.M.}, Shaiara, F., Arifin, S., Bappy, F.H., Hasan, R. and Islam, T.
+      \vspace{2pt}
+
+      \item \textbf{Blockchain-Based Pension System Ensuring Security, Provenance and Efficiency} \\
+      \textit{IEICE Transactions on Information and Systems, vol. 106, no. 5, pp.1085-1088, 2023} \\
+      Kamal, M., \textbf{Abdullah, C.M.}, Shaiara, F., Kamal, A.R.M., Hasan, M.M., Kim, J.S. and Hossain, M.A.
+      \vspace{2pt}
+
+      \item \textbf{BloodComm: A Peer-to-Peer Blockchain-based Community for Blood Donation Network} \\
+      \textit{25th International Conference on Computer and Information Technology (ICCIT), pp.218-223, IEEE, 2022} \\
+      \textbf{Abdullah, C.M.}, Kamal, M., Shaiara, F., Kamal, A.R.M. and Hossain, M.A. \textbf{[Travel Grant]}
+      \vspace{2pt}
+
+      \item \textbf{Huruf: An Application for Arabic Handwritten Character Recognition Using Deep Learning} \\
+      \textit{25th International Conference on Computer and Information Technology (ICCIT), pp.1131-1136, IEEE, 2022} \\
+      Kamal, M., Shaiara, F., \textbf{Abdullah, C.M.}, Ahmed, S., Ahmed, T. and Kabir, M.H.
+    }
+  \end{enumerate}
+
+
+%----------- AWARDS & SCHOLARSHIPS -----------
+\section{Awards \& Scholarships}
+  \vspace{-2pt}
+  \begin{enumerate}[leftmargin=0.25in, label={[\arabic*]}]
+    \small{
+      \item \textbf{FGS Travel Grant}, Dalhousie University \hfill Sep 2026 \\[-2pt]
+      \textit{Awarded to graduate students for research-related travel.} \vspace{-1pt}
+
+      \item \textbf{Bangladesh Sweden Trust Fund Travel Grant} \hfill Feb 2026 \\[-2pt]
+      \textit{Awarded to high-achieving Bangladeshi students for overseas graduate studies.} \vspace{-1pt}
+
+      \item \textbf{Nova Scotia Graduate Scholarship (Master's)} $|$ \textit{CAD \$20,000} \hfill May 2025 \textbf{--} Apr 2027 \\[-2pt]
+      \textit{Awarded for research excellence and innovation in fields prioritized by Nova Scotia.} \vspace{-1pt}
+
+      \item \textbf{NSERC CREATE Cybersecurity Fellowship}, Dalhousie University $|$ \textit{CAD \$27,000} \hfill Jan 2025 \textbf{--} Dec 2026 \\[-2pt]
+      \textit{Competitive funding supporting research on security and privacy in emerging AI technologies.} \vspace{-1pt}
+
+      \item \textbf{Departmental Research Scholarship}, Dalhousie University $|$ \textit{CAD $\sim$\$16,000} \hfill Jan 2025 \textbf{--} Aug 2026 \\[-2pt]
+      \textit{Merit-based institutional graduate funding for tuition and living stipends.} \vspace{-1pt}
+
+      \item \textbf{Conference Travel Grant}, Islamic University of Technology \hfill Sep 2022 \\[-2pt]
+      \textit{Competitive grant awarded to attend and present research at IEEE ICCIT 2022.} \vspace{-1pt}
+
+      \item \textbf{OIC Partial Scholarship} $|$ \textit{USD $\sim$\$18,000} \hfill Jan 2019 \textbf{--} May 2023 \\[-2pt]
+      \textit{Merit-based undergraduate scholarship covering international tuition, housing, and stipend.} \vspace{-1pt}
+
+      \item \textbf{National High School Merit Scholarship} $|$ \textit{Stipend} \hfill Jul 2017 \textbf{--} Jun 2018 \\[-2pt]
+      \textit{Awarded by the Ministry of Education, Bangladesh for outstanding performance in national board exams.}
+    }
+  \end{enumerate}
+
+% ------------- Ongoing Research -------------------
+\section{Ongoing Research Projects}
+    \vspace{-2pt}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {\textbf{Covert Dialect Bias in LLMs and Contextual Integrity Violation} | \emph{Master's Thesis}}{}
+    \resumeItemListStart
+        \resumeItem{Auditing covert dialect prejudice in housing decisions via computational matched-guise methods; characterized as a contextual integrity violation. \textit{Supervisor: Dr.~Rita Orji}}
+    \resumeItemListEnd
+    \vspace{-4pt}
+
+    \resumeProjectHeading
+    {\textbf{Narrlytics: Narrative-Aware News Recommendation Systems}}{}
+    \resumeItemListStart
+        \resumeItem{Operationalizing Greimas' Actantial Model with GATs for role-stratified, explainable news recommendation on the MIND benchmark. \textit{Collaborator: Dr.~Ga Wu (Dalhousie, ex-Twitter ML Engineer)}}
+    \resumeItemListEnd
+    \vspace{-4pt}
+
+    \resumeProjectHeading
+    {\textbf{Persuasive Conversational Interface for Mindful GenAI Usage}}{}
+    \resumeItemListStart
+        \resumeItem{Engineered a browser-based conversational interface utilizing cognitive forcing functions to mitigate cognitive offloading in graduate research (SUS: 87.9/100).\textit{Collaborators: Dr. Oyebode and Kingsley (Dalhousie)}}
+    \resumeItemListEnd
+    \vspace{-4pt}
+
+    \resumeProjectHeading
+    {\textbf{AI Readiness and Institutional Adaptation in Bangladeshi Academia}}{}
+    \resumeItemListStart
+        \resumeItem{Investigating curricular alignment, faculty preparedness, and systemic bottlenecks regarding generative AI integration across higher education in Bangladesh.
+        \textit{Collaborators: Kulsum and Obaidullah (They are my siblings!)}}
+    \resumeItemListEnd
+    \vspace{-4pt}
+
+    \resumeProjectHeading
+    {\textbf{Sociotechnical Security and Privacy in VANETs}}{}
+    \resumeItemListStart
+        \resumeItem{Developing blockchain-based trust management and privacy-preserving authentication schemes for vehicular networks. \textit{Collaborators: Dr. Islam (Asst. Prof, University of Maryland, Baltimore County)}}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%----------- WORK EXPERIENCE -----------
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Teaching Assistant \& Marker}{Halifax, Canada}
+      {Dalhousie University}{Jan 2025 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{CSCI 1110 - Introduction to Computer Science (Winter'25): class size 26; Instr: Dr. Tang, and Dr. Oyebode}
+            
+            \resumeItem{CSCI 3163 - Inclusive Computing (Fall'25, Fall'26): class size 35; Instr: Dr.  Sampangi}
+            
+            \resumeItem{CSCI 4169 - Usable Security and Privacy (Winter'26): class size 55; Instr: Dr. Sampangi}
+            
+            \resumeItem{CSCI 4163/6610 - Human-Computer Interaction (Fall'25): class size 59; Instr: Dr. Blustien}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Research Assistant}{Halifax, Canada}
+      {Persuasive Computing Lab, Dalhousie University}{Jan 2025 \textbf{--} Present}
+      \resumeItemListStart
+        \resumeItem{Conducting research on human-AI interactions and persuasive fitness applications}
+        \resumeItem{Supporting user studies, maintaining lab equipment for ongoing research projects}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Lecturer}{Chattogram, Bangladesh}
+      {Bangladesh Military Academy}{June 2023 \textbf{--} Dec 2024}
+        \resumeItemListStart
+            \resumeItem{CSE 203, 204 - Data Structures Theory \& Sessionals}
+            \resumeItem{CSE 205, 206 - Object Oriented Programming Language Theory \& Sessionals}
+            \resumeItem{CSE 213 - Computer Architecture}
+            \resumeItem{CSE 274 - Numerical Methods Sessionals}
+        \resumeItemListEnd
+
+       \resumeSubheading
+      {Lecturer (Adjunct)}{Chattogram, Bangladesh}
+      {International Islamic University Chittagong}{June 2023 \textbf{--} Dec 2024}
+        \resumeItemListStart
+            \resumeItem{CSE 2301 - Object Oriented Programming}
+            \resumeItem{CSE 2427 - Theory of Computation}
+            \resumeItem{CSE 4743 - Computer Security}
+        \resumeItemListEnd    
+
+  \resumeSubHeadingListEnd
+
+
+% %----------- RESEARCH FUNDING -----------
+% \section{Research Funding}
+%   \resumeSubHeadingListStart
+%     \small{
+%       \item{
+%         \textbf{National Research Foundation of Korea Grant} $|$ \textit{Grant No. NRF-2019R1A2C1005360} \hfill March 2022 \textbf{--} May 2023 \\
+%         Supported research on blockchain-based e-governance under Dr. Jik-Soo Kim, Department of Computer Engineering, Myongji University, South Korea. Funded by the Korean Government (MSIT).
+%       }
+%     }
+%   \resumeSubHeadingListEnd
+
+  
+%----------- COMPETITIONS -----------
+\section{Competitions}
+  \begin{itemize}[leftmargin=0.15in, label={--}, nosep]
+    \small{
+      \item {
+        \textbf{Top 10, Health Data Challenge}, Atlantic AI Summit 2025: Advanced to final round developing AI solutions for improving public health communication strategies.
+      }
+      \item {
+        \textbf{Finalist, Blockchain Olympiad 2022}: Selected among top 50 teams globally; proposed Hyperledger Fabric-based pension system for e-governance applications.
+      }
+      \item {
+        \textbf{Top 40, National Cyber Drill}, BGD e-GOV CIRT 2021: Placed 35\textsuperscript{th} among 396 teams in Bangladesh's national cybersecurity competition.
+      }
+      \item {
+        \textbf{Photography Exhibition, Mindsparks 2022}: Selected to exhibit documentary photography on marginalized communities (Ahsanullah University of Science \& Technology, Dhaka).
+      }
+    }
+  \end{itemize}
+  
+%----------- VOLUNTEERING -----------
+% \section{Volunteering \& Leadership}
+%   \begin{itemize}[leftmargin=0.15in, label={--}, nosep]
+%     \small{
+%       \item {
+%         \textbf{Community Volunteer}, Ummah Masjid Society, Halifax \hfill Jan 2025 \textbf{--} Present
+%       }
+%       \item {
+%         \textbf{Academic Mentor}: Guiding students from Bangladesh aiming to pursue graduate studies in North America
+%       }
+%       \item {
+%         \textbf{Student Body Moderator}, IUT Computer Society \hfill 2024
+%       }
+%       \item {
+%         \textbf{Founding Member \& Instructor}, IUT CTF Club \hfill 2022
+%       }
+%       \item {
+%         \textbf{Lead Organizer}, TEDxIUT (10 speakers, 100+ attendees) \hfill Feb 2020
+%       }
+%       \item {
+%         \textbf{Class Representative}, Islamic University of Technology (4 consecutive years) \hfill 2019 \textbf{--} 2023
+%       }
+%     }
+%   \end{itemize}
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+%   \resumeSubHeadingListStart
+%     Dr Azam Hussian \\
+%     Assistant Professor
+%   \resumeSubHeadingListEnd
+
+% \section{\textbf{Team Activities}}
+%   \vspace{2pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%         \textbf{Student Body Moderator}{ of IUT Computer Society Executive Committee 202} \\ \vspace{3pt}
+
+%         \textbf{Founding Member \& Instructor}{ of IUT CTF Club (Cybersecurity club)} \\ \vspace{3pt}
+
+%         \textbf{Organized TEDxIUT} with 10 distinct speakers and 100+ participants.
+
+%        \textbf{Class Representative}{ for consecutive 4 years} \\ \vspace{3pt}
+
+
+%     }}
+%   \resumeSubHeadingListEnd  
+
+
+
+% \section{\textbf{Reference}}
+% % Provided upon request.
+%   \vspace{2pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%         \textbf{Dr. Oladapo Oyebode}{\\Assistant Professor, Faculty of Computer Science\\ Dalhousie University}
+%         \\ Halifax, NS
+%          \\Email: oladapo.oyebode@dal.ca \vspace{3pt}
+        
+%     }}
+
+%     % \small{\item{
+%     %     \textbf{Dr. Md. Azam Hossain\footnote{Thesis Supervisor} }{\\Assistant Professor, Department of Computer Science and Engineering\\ Islamic University of Technology}
+%     %     \\ Gazipur, Bangladesh
+%     %     \\ Cell: +880-1706-221136 \\Email: azam@iut-dhaka.edu \vspace{3pt}
+        
+%     % }}
+
+% %     \small{\item{
+% %         \textbf{Mohammad Saidul Islam}{\\Lecturer, Department of Computer Science and Engineering\\ Islamic University of Technology}
+% %         \\ Gazipur, Bangladesh
+% %         \\ Cell: 
+% %         +880-1521-325416 \\Email: saidulislam@iut-dhaka.edu \vspace{3pt}
+        
+% %     }}
+%   \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
